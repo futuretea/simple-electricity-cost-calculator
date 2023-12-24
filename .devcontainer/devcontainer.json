@@ -1,0 +1,21 @@
+{
+    "name": "Electricity Cost Calculator",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "bradlc.vscode-tailwindcss",
+                "shd101wyy.markdown-preview-enhanced"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": "yarn install && yarn start"
+}
