@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Electricity Cost Calculator",
+  "name": "Simple Electricity Cost Calculator",
   "icons": [
     {
       "src": "favicon.ico",
