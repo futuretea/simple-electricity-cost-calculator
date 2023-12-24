@@ -15,6 +15,13 @@ function App() {
     setResult({ daily, weekly, monthly, yearly });
   };
 
+  const reset = () => {
+    setPower(100);
+    setHours(8);
+    setRate(0.6);
+    setResult(null);
+  }
+
   const allFieldsFilled = power && hours && rate;
 
   return (
@@ -73,6 +80,12 @@ function App() {
         </div>
 
         <div className="flex items-center justify-between">
+        <button
+            className={`bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline`}
+            onClick={reset}
+          >
+            Reset
+          </button>
           <button
             className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${
               !allFieldsFilled && "opacity-50 cursor-not-allowed"
