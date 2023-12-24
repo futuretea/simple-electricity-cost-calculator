@@ -68,7 +68,7 @@ function App() {
             className="block text-gray-700 text-sm font-bold mb-2"
             htmlFor="rate"
           >
-            Electricity Rate (RMB/kWh)
+            Electricity Rate (/kWh)
           </label>
           <input
             id="rate"
