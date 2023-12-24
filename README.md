@@ -4,7 +4,7 @@ A single-page web application built with React to calculate the cost of electric
 
 ## Online Demo
 
-[Electricity Cost Calculator](https://electricity-calculator-823f0bb9.lz1mmz.on-acorn.io/)
+[Electricity Cost Calculator](https://simple-electricity-cost-calculator.vercel.app/)
 
 ## Setup with Dev Containers
 
