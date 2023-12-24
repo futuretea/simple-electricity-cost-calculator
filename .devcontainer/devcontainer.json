@@ -17,5 +17,5 @@
         }
     },
     "forwardPorts": [3000],
-    "postCreateCommand": "yarn install && yarn start"
+    "postCreateCommand": "yarn install"
 }
